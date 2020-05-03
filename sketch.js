@@ -43,7 +43,7 @@ function draw() {
 fill(80, 80, 255);
 
   textAlign(CENTER, CENTER);
-   if (mouseIsPressed === true) {
+   if (mouseIsPressed === false) {
   if (index >= string.length) {
     index = 0;
   }
